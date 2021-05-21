@@ -1,9 +1,9 @@
 {
-  "name": "budget-app",
+  "name": "new-app",
   "version": "0.0.1",
   "scripts": {
     "start": "vite",
-    "test": "echo \"Not ready yet\"",
+    "test": "wtr \"src/**/*.test.tsx\"",
     "type-check": "tsc"
   },
   "dependencies": {
@@ -11,10 +11,14 @@
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
+    "@testing-library/react": "^11.2.7",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
     "@vitejs/plugin-react-refresh": "^1.3.1",
+    "@web/test-runner": "^0.13.4",
+    "chai": "^4.3.4",
     "typescript": "^4.1.2",
-    "vite": "^2.3.3"
+    "vite": "^2.3.3",
+    "vite-web-test-runner-plugin": "^0.0.3"
   }
 }
